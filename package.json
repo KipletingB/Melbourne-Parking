@@ -1,0 +1,21 @@
+{
+  "name": "parkmelbourne-smart",
+  "version": "1.0.0",
+  "description": "Smart parking MVP for Melbourne",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
